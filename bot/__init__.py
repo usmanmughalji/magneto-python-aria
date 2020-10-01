@@ -2,7 +2,6 @@ import logging
 import os
 import threading
 import time
-
 import aria2p
 import telegram.ext as tg
 import socket
@@ -19,7 +18,6 @@ if os.path.exists('log.txt'):
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     handlers=[logging.FileHandler('log.txt'), logging.StreamHandler()],
                     level=logging.INFO)
-
 
 Interval = []
 
