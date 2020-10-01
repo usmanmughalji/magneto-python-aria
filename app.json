@@ -7,10 +7,9 @@
   "repository": "https://github.com/usmanmughalji/magneto-python-aria-drive-telegram-bot",
   "website": "https://github.com/usmanmughalji/magneto-python-aria-drive-telegram-bot",
   "success_url": "https://github.com/usmanmughalji/magneto-python-aria-drive-telegram-bot",
-  
   "stack": "container",
-  
-  "env": {
+},
+"env": {
     "BOT_TOKEN": {
       "description": "The telegram bot token that you get from @BotFather",
       "value": ""
